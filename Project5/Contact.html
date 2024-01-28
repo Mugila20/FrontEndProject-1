@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- My Css -->
+    <link rel="stylesheet" href="Main.css">
+
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Tasty Bites</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="Main.html">Home</a></p>
+            <p class="navbar-link"><a href="Menu.html">Menu</a></p>
+            <p class="navbar-link"><a href="Contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-toggle-icon">
+            <i class="fa-solid fa-bars" onclick="showSidebar()"></i>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <!-- side nav-bar -->
+    <div class="side-bar">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
+        </p>
+        <div class="side-bar-links">
+            <p class="side-bar-link"><a href="Main.html">Home</a></p>
+            <p class="side-bar-link"><a href="Menu.html">Menu</a></p>
+            <p class="side-bar-link"><a href="Contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <div class="formdiv">
+        <form class="contact" action="Main.html">
+            <h2 class="contact">Contact Us</h2><br>
+            <label>Name:</label><br>
+            <input type="text" ><br><br>
+            <label>Email:</label><br>
+            <input type="email"><br><br>
+            <label>Message:</label><br>
+            <textarea rows="5" cols="20" class="contact"></textarea><br><br>
+            <button><b>Submit</b></button>
+        </form>
+    </div>
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2 class="text">Tasty Bites</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex quam iste? Ad pariatur voluptatibus nostrum reiciendis ipsum necessitatibus accusantium illum! Ea molestias velit autem quos, at saepe nulla mollitia.</p><br>
+                <div class="footer-icon">
+                    <i class="fa-brands fa-square-instagram"></i>&nbsp;&nbsp;&nbsp;
+                    <i class="fa-brands fa-square-x-twitter"></i>&nbsp;&nbsp;&nbsp;
+                    <i class="fa-brands fa-facebook"></i>
+                </div><br>
+                <p>@2024TastyBites.com</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="Contact.js"></script>
+</body>
+</html>
